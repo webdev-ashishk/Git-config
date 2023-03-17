@@ -17,3 +17,12 @@ This Git repo remove command also allows you to delete the Git repo while allowi
 rm -fr .git
 
 ```
+
+# You have Diveregent branches and need to specify problem in Git
+Git push origin master not working 
+```
+steps
+1. git pull --ff-only
+2. git pull origin master
+```
+git push oring master working
