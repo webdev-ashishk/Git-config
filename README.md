@@ -17,12 +17,26 @@ This Git repo remove command also allows you to delete the Git repo while allowi
 rm -fr .git
 
 ```
-
-# You have Diveregent branches and need to specify problem in Git
-Git push origin master not working 
+# Divergent branch proble <First solution>
+### You have divergent branches and need to specify how to reconcile them
 ```
-steps
 1. git pull --ff-only
+```
+```
 2. git pull origin master
 ```
-git push oring master working
+Your code uploaded to github
+# Divergent branch proble <Second solution>
+### when Previous solution not working then Used This technique
+
+1. click Code copy HTTPS LINKS
+2. Run
+```
+   git clone <HTTPS LINK>
+```
+3. Paste Your previous file Which not uploading to github
+4. 
+```
+   git push origin master
+```
+Your code uploaded to github
