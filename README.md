@@ -27,7 +27,7 @@ rm -fr .git
 ```
 Your code uploaded to github
 # Divergent branch proble <Second solution>
-### when Previous solution not working then Used This technique
+### when Previous solution not working then Use This technique
 
 1. click Code copy HTTPS LINKS
 2. Run
@@ -40,3 +40,11 @@ Your code uploaded to github
    git push origin master
 ```
 Your code uploaded to github
+
+# How to visit(Traverse) previous commits
+```
+git log --oneline
+```
+```
+git checkout <#code>
+```
