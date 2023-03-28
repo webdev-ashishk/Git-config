@@ -42,9 +42,25 @@ Your code uploaded to github
 Your code uploaded to github
 
 # How to visit(Traverse) previous commits
+#### list of previous commits and show #code's
 ```
 git log --oneline
 ```
 ```
 git checkout <#code>
+```
+# How to Revert to a Previous Commit Using the git reset command
+### git reset works with local repository
+
+#### list of previous commits and show #code's
+```
+git log --oneline
+```
+##### undo the previous commit 
+```
+git reset <#code> --hard
+```
+### git revert works with online repository
+``` 
+git revert <#code>
 ```
