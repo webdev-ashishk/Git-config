@@ -64,3 +64,36 @@ git reset <#code> --hard
 ``` 
 git revert <#code>
 ```
+# How to Rename Branch
+##### list of branch
+```
+git branch
+```
+##### Rename branch
+```
+git branch -m <oldBranchName> <newBranchName>
+```
+
+# How to Rename Previous commit 
+```
+git commit --amend -m "New commit message."
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
