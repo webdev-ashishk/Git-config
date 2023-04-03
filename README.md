@@ -79,7 +79,11 @@ git branch -m <oldBranchName> <newBranchName>
 git commit --amend -m "New commit message."
 
 ```
-
+# Fix issue
+## Solve any issue in Git You must run this command after every command to see What going on
+```
+git status
+```
 
 
 
