@@ -37,7 +37,7 @@ This Git repo remove command also allows you to delete the Git repo while allowi
 rm -fr .git
 
 ```
-# Divergent branch proble <First solution>
+# Divergent branch problem <First solution>
 ### You have divergent branches and need to specify how to reconcile them
 ```
 1. git pull --ff-only
@@ -46,7 +46,7 @@ rm -fr .git
 2. git pull origin master
 ```
 Your code uploaded to github
-# Divergent branch proble <Second solution>
+# Divergent branch problem <Second solution>
 ### when Previous solution not working then Use This technique
 
 1. click Code copy HTTPS LINKS
