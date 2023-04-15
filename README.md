@@ -1,5 +1,25 @@
 # Git-Tips-and-Tricks
-inside the Git
+
+# Configure Git   
+```
+git config --global user.name "your_username"
+```
+```
+git config --global user.email "your_email_address@example.com"
+```
+```
+git config --global --list
+```
+
+
+
+
+
+
+
+
+
+
 # How to delete a Git repository
 ## Steps to delete a local Git repo
 1. Open the the local Git repo’s root folder
