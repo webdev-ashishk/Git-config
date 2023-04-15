@@ -105,8 +105,13 @@ git commit --amend -m "New commit message."
 git status
 ```
 
-
-
+---
+   
+# git CLI setup
+```
+ sudo apt install gh
+```
+   * https://youtu.be/8Iljd2rZEIA
 
 
 
