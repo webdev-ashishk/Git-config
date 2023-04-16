@@ -111,6 +111,14 @@ git status
 ```
  sudo apt install gh
 ```
+```
+gh auth login
+```
+
+
+
+
+
    * https://youtu.be/8Iljd2rZEIA
 
 ---
@@ -119,7 +127,7 @@ git status
  gh auth refresh -h github.com -s delete_repo
 ```
 ---
-## create a repo at one click
+## Create a repo at one click
 ```
 gh repo new/create <repo name> --public
                                --private
@@ -127,12 +135,12 @@ gh repo new/create <repo name> --public
                                
 ```
 
-## delete a repo at one click
+## Delete a repo at one click
 ```
 gh repo delete <repo name> --confirm
 ```
 
-### rename a repo
+## Rename a repo
 ```
 gh repo rename <new-repo-name>
 ```
