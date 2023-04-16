@@ -107,13 +107,18 @@ git status
 
 ---
    
-# git CLI setup
+# github CLI setup
 ```
  sudo apt install gh
 ```
    * https://youtu.be/8Iljd2rZEIA
 
-
+---
+#Giving permission to github CLI delete the repo
+```
+ gh auth refresh -h github.com -s delete_repo
+```
+---
 
 
 
