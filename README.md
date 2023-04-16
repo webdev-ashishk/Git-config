@@ -119,7 +119,13 @@ git status
  gh auth refresh -h github.com -s delete_repo
 ```
 ---
-
+## create a repo at one click
+```
+gh repo new/create <repo name> --public
+                               --private
+                               --internal
+                               
+```
 
 
 
