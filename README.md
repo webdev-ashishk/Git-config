@@ -132,7 +132,10 @@ gh repo new/create <repo name> --public
 gh repo delete <repo name> --confirm
 ```
 
-
+### rename a repo
+```
+gh repo rename <new-repo-name>
+```
 
 
 
