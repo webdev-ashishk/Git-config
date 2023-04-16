@@ -114,7 +114,7 @@ git status
    * https://youtu.be/8Iljd2rZEIA
 
 ---
-#Giving permission to github CLI delete the repo
+# Giving permission to github CLI delete the repo
 ```
  gh auth refresh -h github.com -s delete_repo
 ```
