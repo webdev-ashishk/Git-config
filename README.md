@@ -127,7 +127,10 @@ gh repo new/create <repo name> --public
                                
 ```
 
-
+## delete a repo at one click
+```
+gh repo delete <repo name> --confirm
+```
 
 
 
