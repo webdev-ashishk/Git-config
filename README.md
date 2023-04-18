@@ -146,6 +146,9 @@ gh repo rename <new-repo-name>
 ```
 
 
+---
+# Most used github shortcuts
+![most used github shortcut](https://user-images.githubusercontent.com/127021921/232833458-b2ebde14-f48b-4e8e-bb48-0f7331ae221e.png)
 
 
 
