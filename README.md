@@ -151,6 +151,20 @@ gh repo rename <new-repo-name>
 ![most used github shortcut](https://user-images.githubusercontent.com/127021921/232833458-b2ebde14-f48b-4e8e-bb48-0f7331ae221e.png)
 
 
+---
+ # When something change remote but not present locally and wanted to push my code to remote then this proble occurs
+   ## First solution 
+   ```
+   git push origin master -f
+   ```
+   
+   ![Screenshot from 2023-05-19 22-49-22](https://github.com/webdev-ashishk/Git-info/assets/127021921/04a620d2-1a70-46fc-8ebd-d3580a16f7f0)
 
+   ## Second Solution(recomended)
+   ```
+   git pull origin master
+   git push origin master
+   ```
 
-
+---
+   
