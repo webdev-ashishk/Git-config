@@ -11,7 +11,13 @@ git config --global user.email "your_email_address@example.com"
 git config --global --list
 ```
 
+### Don't write every time userName and Password 
+#### Write user & password first time and along with this write below code that specify when timerout expires
+---
+```
+git config --global credential.helper "cache --timeout=86400"
 
+```
 
 
 
